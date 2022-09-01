@@ -1,17 +1,57 @@
+*{
+  font-family:arial; 
+}
+
+header {
+font-size: 15px;
+height:100px;
+padding-right: 20px;
+padding-top: 15px;
+display: flex;
+position: relative;
+justify-content:right;
+color:rgb(6, 5, 5)
+}
+
+a{
+text-decoration: none;
+color: rgb(72, 71, 71);
+}
+
+.buscador{
+    text-align: center;
+    border-radius: 20px;
+    border-radius: 20px;
+}
+
+.botones{   
+    text-align: center;
+    }
 
 #div1 {
     text-align: right;
     background-color:none;
     height: 50px;
-    padding-right: 40px;
-    padding-top: 15px;
-    padding-;
-
-
+    padding-right: 20px;
+    padding-top: 8px;
+    justify-content: space-around;
 }
 
+main{
+    justify-content: space-around;
+}
 
-#google{
-    font-size: 100px;
+.google{
     text-align: center;
+    padding top:10px;
     }
+
+.lupa{
+    height: 20px;
+}  
+
+.microfono{
+    height:20px;
+    background: none;
+
+}
