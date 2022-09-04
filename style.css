@@ -15,6 +15,11 @@ body{
     cursor: pointer;
 }
 
+.google{
+    align-items: 10px;
+
+}
+
 a{
     margin:0px;
     text-decoration: none;
@@ -26,10 +31,10 @@ a:hover{
 }
 
 header{
-    font-size: 15px;
-    height:100px;
+    font-size: 13px;
+    height:15px;
     padding-right: 10px;
-    padding-top: 10px;
+    padding-top: 20px;
     display: flex;
     position: relative;
     justify-content:right;
@@ -63,10 +68,11 @@ ul> img{
 }
 
 section{
+    padding-top: 83px;
  display: flex;
  flex-direction: column;
  align-items: center;
- margin-top:5vh;
+ 
 }
 
 .buscador{
@@ -89,7 +95,7 @@ border-radius: 20px;
 }
 
 .botones{
-    padding-top:53px;
+    padding-top:42px;
 }
 
 button{
@@ -105,14 +111,12 @@ button:hover{
     cursor: pointer;
     box-shadow:inset;
     box-shadow: 0 0 10px 0 gainsboro;
-
 }
+
 footer{
-    display: flex;
+ display: flex;
  text-align: center;
  justify-content: space-around;
- padding-top: 160px;
+ padding-top: 190px;
+}
 
-}
-.footer{
-}
